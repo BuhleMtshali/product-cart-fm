@@ -46,3 +46,13 @@ body{
     color: var(--deep-dark-brown);
     font-size: 2.5rem;
 }
+
+#menu-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+}

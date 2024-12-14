@@ -50,7 +50,7 @@ body{
 #menu-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 12px;
+    gap: 16px;
 }
 
 
@@ -80,4 +80,20 @@ body{
 }
 .decriptions{
     margin-top: 15px;
+}
+.catergory{
+    color: var(--darker-rose);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.name{
+    color: var(--deep-dark-brown);
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 5px;
+    margin-bottom: 0
+}
+
+.price{
+    margin-top: 5px;
 }

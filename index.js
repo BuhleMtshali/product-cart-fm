@@ -20,7 +20,7 @@ data.forEach((item) => {
                         <div class = "decriptions">
                         <p class="catergory">${item.category}</p>
                         <p class="name">${item.name}</p>
-                        <p class="price">${item.price}</p>
+                        <p class="price">$ ${item.price}</p>
                         </div>
                         
                         `

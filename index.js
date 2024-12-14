@@ -1,5 +1,5 @@
-import data from './data.json';
-
+import data from './data.js';
+console.log(data)
 //defining variables
 let menuItemsContainer = document.getElementById('menu-container');
 let cartCount = document.getElementById('cart-count');
@@ -10,4 +10,3 @@ let placeholderElement = document.getElementById('placeholder');
 function renderMenu() {
 
 }
-console.log(data)

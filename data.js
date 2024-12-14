@@ -1,4 +1,4 @@
- [
+       export default [
     {
        "image": {
             "thumbnail": "./assets/images/image-waffle-thumbnail.jpg",

@@ -53,20 +53,30 @@ body{
     gap: 12px;
 }
 
+
 .menu-item{
     display: flex;
     flex-direction: column;
     position: relative;
 }
-
+.img-menu{
+    border-radius: 15px;
+}
 .menu-item button{
-   position: absolute;
-   top: 290px;
-   left: 30%;
+   position: relative;
+   top: -25px;
+   left: 20%;
    display: flex;
    align-items: center;
+   justify-content: center;
    padding: 8px 20px;
    border-radius: 17px;
+   border: 2px solid var(--greyish-rose);
+   z-index: 1;
+   width: 60%;
+}
+.menu-item img{
+    padding-right: 5px;
 }
 .decriptions{
     margin-top: 15px;

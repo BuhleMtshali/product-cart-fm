@@ -18,15 +18,17 @@ body{
 .container{
     box-sizing: border-box;
     display: flex;
-    height: 100vh;
+    padding: 40px;
+    
 }
 .left-side-container{
-    background-color: blueviolet;
     flex: 2;
+    padding: 8px;
     
 }
 .right-side-container{
-    background-color: cadetblue;
+    background-color: white;
     flex: 1;
-    
+    padding: 8px;
+    text-align: center;
 }

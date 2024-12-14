@@ -13,8 +13,20 @@
 }
 body{
     font-family: var(--font-family);
+    background-color: #FCF8F5;
 }
 .container{
     box-sizing: border-box;
-   
+    display: flex;
+    flex-direction: column;
+}
+.left-side-container{
+    background-color: blueviolet;
+    height: 100vh;
+    
+}
+.right-side-container{
+    background-color: cadetblue;
+    height: 100vh;
+    
 }

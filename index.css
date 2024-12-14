@@ -31,4 +31,18 @@ body{
     flex: 1;
     padding: 8px;
     text-align: center;
+    border-radius: 8px;
+}
+.right-side-container h2{
+    color: var(--dark-red);
+    text-align: left;
+}
+.right-side-container p{
+    color: var(--darker-rose);
+    font-weight: 500;
+    font-size: 18px;
+}
+.left-side-container h1{
+    color: var(--deep-dark-brown);
+    font-size: 2.5rem;
 }

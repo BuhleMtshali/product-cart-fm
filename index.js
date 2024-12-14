@@ -12,14 +12,16 @@ data.forEach((item) => {
     const menuItem = document.createElement('div');
     menuItem.classList.add('menu-item');
     menuItem.innerHTML = `
-                         <img src = "${item.image.desktop}"/>  
+                         <img src = "${item.image.desktop}"/>
                          <button>
                          <img src = "assets/icon-add-to-cart.svg"/>
                          Add to Cart
                          </button>
+                        <div class = "decriptions">
                         <p class="catergory">${item.category}</p>
                         <p class="name">${item.name}</p>
                         <p class="price">${item.price}</p>
+                        </div>
                         `
                         menuItemsContainer.appendChild(menuItem)
 })

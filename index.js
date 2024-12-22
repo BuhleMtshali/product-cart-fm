@@ -25,7 +25,19 @@ data.forEach((item) => {
                         
                         `
                         menuItemsContainer.appendChild(menuItem)
+
+    //function for adding the items to the cart
+function addToCat(renderMenu) {
+    let cartArray = [];  //array to add to cart
+    menuItemsContainer.addEventListener('click', (e) => {
+        console.log(e.target.id)
+    })
+
+}
+addToCat()
+
 })
 }
 
 renderMenu()
+
